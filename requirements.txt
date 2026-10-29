@@ -1,0 +1,4 @@
+redis==8.1.0
+fakeredis==2.40.0
+tzdata==2026.6
+pytest==9.2.0

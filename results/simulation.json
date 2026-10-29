@@ -1,0 +1,60 @@
+{
+  "store": "memory",
+  "attendees": 500,
+  "days": [
+    "2026-11-10",
+    "2026-11-11"
+  ],
+  "zone": "America/Los_Angeles",
+  "seed": 7,
+  "settings": {
+    "quiet_hours": "22:00-07:00",
+    "digests": [
+      "12:30",
+      "18:30"
+    ],
+    "max_pushes_per_hour": 6,
+    "thread_window_minutes": 10
+  },
+  "results": {
+    "push everything": {
+      "pushes_per_attendee_per_day_mean": 27.2,
+      "pushes_per_attendee_per_day_max": 40,
+      "busiest_hour_max_pushes": 14,
+      "pushes_in_quiet_hours": 947,
+      "urgent_delay_minutes_max": 0.0,
+      "announcement_delay_minutes_median": 0.0,
+      "announcement_delay_minutes_p90": 0.0,
+      "dm_delay_minutes_median": 0.0,
+      "dm_delay_minutes_p90": 0.0,
+      "inbox_only": 0,
+      "notifications": 27152
+    },
+    "router": {
+      "pushes_per_attendee_per_day_mean": 20.5,
+      "pushes_per_attendee_per_day_max": 28,
+      "busiest_hour_max_pushes": 8,
+      "pushes_in_quiet_hours": 0,
+      "urgent_delay_minutes_max": 0.0,
+      "announcement_delay_minutes_median": 0.0,
+      "announcement_delay_minutes_p90": 0.0,
+      "dm_delay_minutes_median": 4.0,
+      "dm_delay_minutes_p90": 9.0,
+      "inbox_only": 0,
+      "notifications": 27152
+    },
+    "router, Whova muted": {
+      "pushes_per_attendee_per_day_mean": 19.9,
+      "pushes_per_attendee_per_day_max": 27,
+      "busiest_hour_max_pushes": 8,
+      "pushes_in_quiet_hours": 0,
+      "urgent_delay_minutes_max": 0.0,
+      "announcement_delay_minutes_median": 0.0,
+      "announcement_delay_minutes_p90": 0.0,
+      "dm_delay_minutes_median": 4.0,
+      "dm_delay_minutes_p90": 9.0,
+      "inbox_only": 4000,
+      "notifications": 27152
+    }
+  }
+}
